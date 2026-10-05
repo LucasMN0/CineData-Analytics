@@ -77,12 +77,9 @@ cinedata-analytics/
 ├── tests/
 │   ├── __init__.py
 │   └── test_database.py   # Testes unitários
-├── notebooks/
-│   └── (Jupyter notebooks para análises exploratórias futuras)
 ├── cinerocket.db          # Banco de dados (555MB)
 ├── pyproject.toml         # Dependências
 ├── .env                   # Configuração (com chave pré-configurada)
-├── .env.example           # Template
 ├── .gitignore
 └── README.md
 ```
@@ -217,7 +214,6 @@ Os 10 filmes com maior bilheteria são:
 - ✅ O `.env` já vem configurado com uma chave de teste em conta secundária (sem pagamento)
 - ℹ️ A chave é pública pois o projeto é educacional e não contém dados sensíveis
 - 🔒 Para produção: crie uma chave paga e atualize o `.env`
-- `.env.example` serve como template para referência
 
 ## 📄 Licença
 
